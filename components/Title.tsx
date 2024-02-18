@@ -12,7 +12,9 @@ export default function Title({ as, className, children }: TitleProps) {
       : "text-[17px] font-raleway";
 
   return (
-    <Tag className={`${className} ${variants} text-center font-bold`}>
+    <Tag
+      className={`${className} ${variants} text-center font-bold lg:text-start`}
+    >
       {children}
     </Tag>
   );
