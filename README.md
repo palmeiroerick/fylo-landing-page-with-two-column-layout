@@ -18,7 +18,7 @@ Users should be able to:
 
 ## Screenshot
 
-
+![Screen Shot 2024-02-18 at 11 50 30](https://github.com/palmeiroerick/fylo-landing-page-with-two-column-layout/assets/148393698/52c563e8-20e8-4107-b529-6779d82e6c34)
 
 ## Links
 
