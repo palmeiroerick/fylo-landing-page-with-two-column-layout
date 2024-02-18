@@ -7,7 +7,7 @@ type LogoProps = {
 export default function Logo({ white }: LogoProps) {
   const src = white ? "/logo-white.svg" : "/logo.svg";
 
-  const variants = white ? "h-12 w-40" : "h-6 w-20";
+  const variants = white ? "h-12 w-40" : "h-6 w-20 lg:h-8 w-28";
 
   return (
     <div className={`${variants} relative `}>
