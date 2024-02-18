@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${raleway.variable} ${openSans.variable}`}>
-      <body>{children}</body>
+      <body className="max-w-[1440px] m-auto">{children}</body>
     </html>
   );
 }
