@@ -5,7 +5,7 @@ type TextProps = {
 
 export default function Text({ className, children }: TextProps) {
   return (
-    <div className={`${className} font-raleway text-[15px] font-medium`}>
+    <div className={`${className} font-openSans text-[15px] font-medium`}>
       {children}
     </div>
   );
