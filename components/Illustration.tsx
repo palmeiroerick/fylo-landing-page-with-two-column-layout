@@ -7,21 +7,25 @@ type IllustrationProps = {
 export default function Illustration({ type }: IllustrationProps) {
   if (type === 1) {
     return (
-      <Image
-        src="/illustration-1.svg"
-        alt="illustration"
-        width={1132.93}
-        height={839.14}
-      />
+      <div className="relative w-full h-60 lg:w-1/2 lg:h-[480px]">
+        <Image
+          className="object-contain"
+          src="/illustration-1.svg"
+          alt="illustration"
+          fill
+        />
+      </div>
     );
   } else {
     return (
-      <Image
-        src="/illustration-2.svg"
-        alt="illustration"
-        width={1077.87}
-        height={813.02}
-      />
+      <div className="relative w-full h-60 lg:w-1/2 lg:h-[480px]">
+        <Image
+          className="object-contain"
+          src="/illustration-2.svg"
+          alt="illustration"
+          fill
+        />
+      </div>
     );
   }
 }
