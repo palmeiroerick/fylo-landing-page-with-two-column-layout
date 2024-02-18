@@ -1,6 +1,6 @@
 const SocialIcons = () => {
   const iconClassName =
-    "flex h-7 w-7 cursor-pointer items-center justify-center rounded-full border border-[#fff] fill-[#fff] p-[6px]";
+    "flex h-7 w-7 cursor-pointer items-center justify-center rounded-full border border-[#fff] fill-[#fff] p-[6px] hover:fill-[#3065f8] hover:border-[#3065f8]";
 
   return (
     <div className="flex flex-row gap-3 m-auto lg:m-0">

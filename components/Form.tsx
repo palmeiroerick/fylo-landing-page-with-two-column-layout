@@ -15,7 +15,7 @@ export default function Form({ type }: FormProps) {
         className={`${type === 1 ? "lg:w-80" : ""} text-sm font-raleway text-desaturatedBlue h-10 border rounded-[4px] pl-4 lg:h-12`}
       />
       <button
-        className={`${type === 1 ? "lg:w-60" : "text-sm lg:w-48"} bg-brightBlue text-lightGrayishBlue font-raleway cursor-pointer font-semibold h-10 rounded-[4px] lg:h-12`}
+        className={`${type === 1 ? "lg:w-60" : "text-sm lg:w-48"} bg-brightBlue hover:bg-[#6f95ff] text-lightGrayishBlue font-raleway cursor-pointer font-semibold h-10 rounded-[4px] lg:h-12`}
       >
         {type === 1 ? "Get Started" : "Get Started For Free"}
       </button>
