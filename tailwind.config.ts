@@ -23,6 +23,9 @@ const config: Config = {
       raleway: ["var(--raleway)"],
       openSans: ["var(--open-sans)"],
     },
+    backgroundImage: {
+      arrow: "url('/icon-arrow.svg')",
+    },
   },
 };
 
